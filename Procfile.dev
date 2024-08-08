@@ -1,0 +1,4 @@
+# To launch the file: foreman s -f Procfile.dev
+
+web: bundle exec rails s -p 3000
+worker: bundle exec sidekiq -e development
